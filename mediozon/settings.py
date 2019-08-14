@@ -26,7 +26,8 @@ SECRET_KEY = 'jq6_#&j&4$%19l3t&n%r=3m!wdt0wh%dv=8wxu%4+q_@zee6y3'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-'agile-beach-58806.herokuapp.com'
+'agile-beach-58806.herokuapp.com',
+    mediozon.herokuapp.com
 ]
 
 
