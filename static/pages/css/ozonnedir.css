@@ -1,0 +1,21 @@
+#ozonnedir{
+    width: 14rem;
+    border-radius: 20%;
+
+
+}
+.sec{
+    padding: 3rem;
+    background-color: #f5f5f5;
+    width: 20rem;
+    border-radius: 20%;
+}
+
+.maddeler{
+    color: blue;
+    font-size: 1.2rem;
+}
+.baslik{
+    color: red;
+    font-size: 1.3rem;
+}

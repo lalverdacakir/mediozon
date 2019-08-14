@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{%load static%}
+
+
+{%block titleName%}
+Ozon Hakkında --Mediozon
+{%endblock%}
+{% block maincontent%}
+<div style="margin-top: 5rem;" align=center class="row">
+    <div  class="col bolum">
+        <div style="margin-top: 2rem" class="sec">
+                <a style="text-decoration: none" href="/nedir"><img id="ozonnedir" src="{% static 'pages/images/ozon-nedir.jpg' %}" alt="ozon-nedir"></a>
+                <div style="font-size: 2rem">
+                        <a style = "text-decoration: none" href="/nedir">Ozon Nedir?</a>
+
+                </div>
+        </div>
+       
+    </div>
+    <div  class="col bolum">
+        <div class="sec">
+                <a style="text-decoration: none" href="/etki"><img id="ozonnedir" src="{% static 'pages/images/mutlu.jpg' %}" alt="ozon-etki"></a>
+                <div style="font-size: 2rem">
+                        <a style = "text-decoration: none" href="/etki">Ozonun Etkileri</a>
+                </div>
+        </div>
+           
+    </div>
+    <div  class="col bolum">
+            <div class="sec">
+                <a href="/tarih" style="text-decoration: none" ><img id="ozonnedir" src="{% static 'pages/images/tarih.jpg' %}" alt="ozon-nedir">
+                    
+                    <div style="font-size: 2rem">
+                        <a style="text-decoration: none" href="/tarih">Ozonun Tarihçesi</a>
+                    </div>
+            </div>
+               
+        </div> 
+        <div style="margin-top: 2rem" class="col bolum">
+                <div class="sec">
+                    <a style="text-decoration: none" href="/dunya"><img id="ozonnedir" src="{% static 'pages/images/globe.jpeg' %}" alt="ozon-nedir"></a>
+                        <div style="font-size: 2rem">
+                            <a style = "text-decoration: none" href="/dunya">Dünyada Ozon</a>
+                        </div>
+                </div>
+                   
+            </div>  
+
+
+</div>
+
+<div style="margin-top: 5rem;" align=center class="row">
+ 
+</div>
+{%endblock%}
