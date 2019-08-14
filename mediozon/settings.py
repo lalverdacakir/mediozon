@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
 'agile-beach-58806.herokuapp.com',
-    mediozon.herokuapp.com
+    'mediozon.herokuapp.com'
 ]
 
 
