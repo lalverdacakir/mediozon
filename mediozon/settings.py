@@ -25,7 +25,9 @@ SECRET_KEY = 'jq6_#&j&4$%19l3t&n%r=3m!wdt0wh%dv=8wxu%4+q_@zee6y3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+'agile-beach-58806.herokuapp.com'
+]
 
 
 # Application definition
